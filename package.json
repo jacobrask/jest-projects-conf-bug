@@ -1,0 +1,13 @@
+{
+  "name": "jest-projects-rootconf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacob Rask <jacob@jacobrask.net>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --projects packages/*"
+  },
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
